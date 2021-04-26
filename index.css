@@ -1,0 +1,98 @@
+body{
+    background-color:  hsl(0, 0%, 95%);
+}
+svg{
+    padding: 30px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    background-size: initial;
+    justify-content: center;
+}
+
+.flex-container > div{
+    width: 375px;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.first{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.sec{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.third{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 30px;
+    line-height: 20px;
+    border: 1px transparent ;
+    box-sizing: content-box;
+    
+}
+
+h1{
+    font-family: 'Big Shoulder Display' sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+    color: hsl(0, 0%, 95%);
+    line-height: 10px;
+    padding: 30px;
+    
+}
+
+@media  (max-width: 440px) {
+    .flex-container{
+        flex-direction: column;
+    }
+}
+
+.but{
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    color: hsl(31, 77%, 52%);
+    margin:  30px;
+    padding: 10px;
+}
+
+
+.but:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+
+.but2{
+    color: hsl(184, 100%, 22%);
+}
+
+.but2:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+
+.but3{
+    color: hsl(179, 100%, 13%);
+}
+
+.but3:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
